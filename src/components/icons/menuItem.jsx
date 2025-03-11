@@ -25,31 +25,36 @@ export const menuItem = [
         name: "Inplant Training",
         icon: <FaRegBuilding />
     },
+    {
+        path: "/setting",
+        name: "Reports",
+        icon: <PaddingIcon />
+    },
 // {
 //     path: "/dashboard1",
 //     name: "Dashboard sample",
 //     icon: <FaRegBuilding />
 // },
-    {
-        path: "",
-        name: "Reports",
-        icon: <FolderIcon />,
-        subItems: [
-            {
-                path: "/itireport",
-                name: "ITI Report",
-                icon: <MarginIcon />
-            },
-            {
-                path: "/industryreport",
-                name: "Industry Report",
-                icon: <ListAltIcon />
-            },
-            {
-                path: "/inplanttrainingreport",
-                name: "Inplant Training Report",
-                icon: <PaddingIcon />
-            }
-        ]
-    }
+    // {
+    //     path: "",
+    //     name: "Reports",
+    //     icon: <FolderIcon />,
+    //     subItems: [
+    //         {
+    //             path: "/itireport",
+    //             name: "ITI Report",
+    //             icon: <MarginIcon />
+    //         },
+    //         {
+    //             path: "/industryreport",
+    //             name: "Industry Report",
+    //             icon: <ListAltIcon />
+    //         },
+    //         {
+    //             path: "/inplanttrainingreport",
+    //             name: "Inplant Training Report",
+    //             icon: <PaddingIcon />
+    //         }
+    //     ]
+    // }
 ];
